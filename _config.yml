@@ -192,6 +192,11 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+# I inserted this line
+  - scope:
+      path: "images"
+    values:
+      image: true
 
 sass:
   style: compressed
